@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Oswald&family=Roboto&display=swap');
+/* body{
+    background-color: red;
+} */
+h1,h2,h3{
+    /* color: red; */
+    font-family: 'Montserrat', sans-serif;
+}
+blockquote{
+    border-left: 3px solid aqua;
+    color: aqua;
+    padding-left: 5px;
+    margin-left: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+p > code {
+    padding: 3px;
+}
+code {
+    background: white;
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+  pre {
+    display: block;
+    overflow: auto;
+    background: white;
+    padding: 5px;
+    line-height: 1.2;
+  }
+table {
+    border-collapse: collapse;
+    /* background-color: red; */
+  }
+td,
+  th {
+    font-family: 'Roboto', sans-serif;
+    border: 2px solid orange;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+#preview{
+    font-family: 'Lato', sans-serif;
+}
