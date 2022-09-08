@@ -1,30 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Oswald&family=Roboto&display=swap');
-/* body{
-    background-color: red;
-} */
+*{
+    box-sizing: border-box;
+}
+body{
+  background-color: #006D77;
+  height: 100vh;
+}
 h1,h2,h3{
     /* color: red; */
     font-family: 'Montserrat', sans-serif;
 }
 blockquote{
-    border-left: 3px solid aqua;
-    color: aqua;
+    border-left: 3px solid blue;
+    /* color: aqua; */
+    color: blue;
     padding-left: 5px;
     margin-left: 25px;
+    font-weight: bold;
     font-family: 'Oswald', sans-serif;
+    letter-spacing: .1em;
 }
 p > code {
     padding: 3px;
 }
 code {
-    background: white;
+    background: #EDF6F9;
+    /* background: rgb(180, 173, 173); */
     font-size: 0.875rem;
+    font-weight: bold;
+  }
+  a{
+    color: blueviolet;
     font-weight: bold;
   }
   pre {
     display: block;
     overflow: auto;
-    background: white;
+    background: #EDF6F9;
     padding: 5px;
     line-height: 1.2;
   }
@@ -35,7 +47,7 @@ table {
 td,
   th {
     font-family: 'Roboto', sans-serif;
-    border: 2px solid orange;
+    border: 2px solid #E29578;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -43,3 +55,9 @@ td,
 #preview{
     font-family: 'Lato', sans-serif;
 }
+/* @media(max-width: 550px){
+    #wrapper{
+        grid-template-columns: 1fr;
+        background: red
+}
+} */
