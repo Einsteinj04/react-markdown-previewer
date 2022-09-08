@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState} from "react";
 import { marked } from "marked";
 marked.setOptions({
   breaks: true,
@@ -41,22 +41,33 @@ And here. | Okay. | I think we get it.
 1. And there are numbered lists too.
 1. Use just 1s if you want!
 1. And last but not least, let's not forget embedded images:
-![alt text](image.jpg)
+![React JS Logo](./src/react.png)
 `);
+  // const [body, setBody] = useState(false)
+  // function handleChange() {
+  //   if (window.innerWidth <= 750) {
+  //     setBody(true)
+  //   } else {
+  //     setBody(false)
+  //   }
+  // }
+  // useEffect(() => {
+  //   window.addEventListener('resize',handleChange)
+  // })
   function createMarkup() {
     return { __html: marked(text) };
   }
   return (
     <div
-      id="wrapper"
-      style={{
-        display: "grid",
-        // background: "red",
-        gridTemplateColumns: "1fr 1fr",
-        gridTemplateRows: "650px",
-        gap: "20px",
-        margin: "50px",
-      }}
+      className = "wrapper"
+      // style={{
+      //   display: "grid",
+      //   background: "red",
+      //   gridTemplateColumns: "1fr 1fr",
+      //   gridTemplateRows: "650px",
+      //   gap: "20px",
+      //   margin: "50px",
+      // }}
     >
       <textarea
         height="500"

@@ -51,13 +51,41 @@ td,
     padding-left: 20px;
     padding-right: 20px;
   }
-
+img {
+    display: block;
+    max-width: 90%;
+    margin: 2rem auto;
+  }
 #preview{
     font-family: 'Lato', sans-serif;
 }
-/* @media(max-width: 550px){
-    #wrapper{
-        grid-template-columns: 1fr;
-        background: red
+.wrapper{
+    display: grid;
+    /* background: "red"; */
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 650px;
+    gap: 20px;
+    margin: 10px;
 }
-} */
+#nav{
+            height: 50px;
+            width: 100%;
+            background: #E29578;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #EDF6F9;
+            font-family: "Roboto";
+            padding: 30px;
+            letter-spacing: .07em
+}
+@media(max-width: 500px){
+    .wrapper{
+        grid-template-columns: 1fr;
+        /* background: red */
+}   
+#nav{
+  font-size: 1.5em;
+}
+}
