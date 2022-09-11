@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://Einsteinj04.github.io/react-markdown-previewer",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
