@@ -1,11 +1,8 @@
+import React from "react";
 export default function Nav() {
-    return (
-      <>
-        <h1
-          id="nav"
-        >
-          Markdown Previewer
-        </h1>
-      </>
-    );
+  return (
+    <>
+      <h1 id="nav">Markdown Previewer</h1>
+    </>
+  );
 }
